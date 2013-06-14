@@ -1,0 +1,4 @@
+{
+	"app/index.html": "app/{%= name %}.html",
+	"app/scss/_partial.scss": "app/scss/_{%= name %}.scss"
+}

@@ -27,8 +27,11 @@ module.exports = function( grunt ) {
 
 
           open : {
-               dev : {
-                    path: 'http://localhost:9001/'
+               local : {
+                    path: 'http://localhost:9001/{%= name %}.html'
+               },
+               markdown : {
+                    path: 'http://markable.in/editor/'
                }
           }
      });
@@ -40,6 +43,6 @@ module.exports = function( grunt ) {
      grunt.loadNpmTasks('grunt-open');
 
      // Default task(s).
-     grunt.registerTask('default', ['connect', 'open', 'watch']);
+     grunt.registerTask('default', ['connect', 'open:markdown', 'open:local', 'watch']);
      grunt.registerTask('none', []);
 };

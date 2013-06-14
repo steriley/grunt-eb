@@ -2,7 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Essential Beauty: Mock Up</title>
+	<title>{%= title %}</title>
+	<meta name="description" content="{%= description %}">
+	<meta name="keywords" content="{%= keywords %}">
+	<!--
+		{%= name %}
+		{%= title %}^{%= description %}^{%= keywords %}
+	-->
 	<link rel="stylesheet" href="//az312542.vo.msecnd.net/cdn/core/css_v2/essentialbeauty.gz.css">
 	<link rel="stylesheet" href="//az312542.vo.msecnd.net/cdn/core/css_v2/site.gz.css">
 	<link rel="stylesheet" href="/css/article.css">
@@ -13,10 +19,10 @@
 	</style>
 </head>
 <body>
-	<div id="namespace-here">
+	<div id="{%= name %}">
 		<div class="intro">
-			<h1 class="ir">Hello World!</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, nostrum, nihil, illum enim cum quam quidem cumque asperiores vel voluptatem magni autem veritatis blanditiis assumenda eum adipisci odit maiores molestiae.</p>
+			<h1 class="ir">{%= title %}</h1>
+			<p>{%= description %}</p>
 		</div>
 	</div>
 	<script src="http://localhost:35729/livereload.js"></script>

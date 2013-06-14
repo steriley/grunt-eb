@@ -1,6 +1,6 @@
-#namespace-here {
+#{%= name %} {
   padding: 20px; }
-  #namespace-here .intro h1 {
+  #{%= name %} .intro h1 {
     margin: 0 0 .5em 0; }
 
 /*@ sourceMappingURL=article.css.map */
