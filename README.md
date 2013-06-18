@@ -13,7 +13,7 @@ Updating template:
 
 Starting a new project:
 
-```$ grunt-init eb; npm install && grunt```
+```$ grunt-init eb; npm install && chmod ug+x *.command && grunt```
 
 ## Dependency Installation
 
