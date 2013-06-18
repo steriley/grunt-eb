@@ -14,3 +14,23 @@ Updating template:
 Starting a new project:
 
 ```$ grunt-init eb; npm install && grunt```
+
+## Dependency Installation
+
+### Install Git
+Use the download package from the [Git website](http://git-scm.com/) 
+
+### Install Compass CSS Authoring Framework
+```$ sudo gem update --system```
+
+```$ sudo gem install compass```
+
+### Install Sass
+```$ sudo gem install sass -v 3.3.0.alpha.141 --pre```
+
+### Install Grunt
+Requires [NodeJS](http://nodejs.org/) to be installed
+
+```$ npm install -g grunt-cli```
+
+```$ npm install -g grunt-init```
