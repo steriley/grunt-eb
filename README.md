@@ -31,6 +31,6 @@ Use the download package from the [Git website](http://git-scm.com/)
 ### Install Grunt
 Requires [NodeJS](http://nodejs.org/) to be installed
 
-```$ npm install -g grunt-cli```
+```$ sudo npm install -g grunt-cli```
 
-```$ npm install -g grunt-init```
+```$ sudo npm install -g grunt-init```
