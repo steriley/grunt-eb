@@ -14,7 +14,7 @@ This will update the starter template with the latest available updates.
 
 Run the following command from the terminal ```eb-new```
 
-After running eb-new you will be asked to add the Project title, META description & keywords to add to the HTML document. It will then open a new browser window containing the Markdown tool and the HTML page you will be working on.
+After running eb-new you will be asked to add the Page title, META description & keywords to add to the HTML document. It will then open a new browser window containing the Markdown tool and the HTML page you will be working on.
 
 You will also need to execute the ```sass.command``` file in the folder by double-clicking it to start up the preprocessor.
 
