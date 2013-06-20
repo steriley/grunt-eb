@@ -2,7 +2,7 @@
 
 Locate the Sites folder in Finder and add a new folder with the same name of the URL the article will go under.
 
-Select the new folder and press ```Ctrl+Alt+Cmd+T``` this will open a new Terminal window for that folder.
+Select the new folder and press ```ctrl+alt+cmd+t``` this will open a new Terminal window for that folder.
 
 ## Using The Latest Template
 
@@ -55,8 +55,8 @@ Open Google Chrome and go to the following location in your address bar: ```chro
 
 Find the option **Enable Developer Tools experiments.** and choose Enable, hit the Relaunch Now button.
 
-Now when you open the DevTools settings you will have a new option of Experiments.
+Open the DevTools ```cmd+alt+i``` and open the settings you will have a new option of Experiments.
 
-Select the Experiments tab and choose Support for SASS.
+Select the Experiments tab and check Support for Sass.
 
 Finally go to the General tab and select Enable source maps under the Sources heading.
