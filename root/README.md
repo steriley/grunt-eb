@@ -6,15 +6,15 @@ Select the new folder and press Ctrl+Alt+Cmd+T this will open a new Terminal win
 
 ## Using The Latest Template
 
-Run the following command from the terminal ```$ eb-update```
+Run the following command from the terminal ```eb-update```
 
-This will update your system with any changes that have been made to the template system.
+This will update the starter template with the latest available updates.
 
 ## Creating A New Project
 
-Run the following command from the terminal ```$ eb-new```
+Run the following command from the terminal ```eb-new```
 
-After running eb-new you will be asked a number of questions to help start out the HTML document. It will then open a new browser window containing the Markdown tool and the HTML page you will be working on.
+After running eb-new you will be asked to add the Project title, META description & keywords to add to the HTML document. It will then open a new browser window containing the Markdown tool and the HTML page you will be working on.
 
 You will also need to execute the ```sass.command``` file in the folder by double-clicking it to start up the preprocessor.
 
@@ -47,4 +47,4 @@ The ```app``` folder can be zipped up and sent for review when completed.
 
 ## Restarting the Project
 
-If you need to come back to this project at a later date, running the ```grunt.command``` will start up the preview server, you will also have to execute the ```sass.command```
+If you need to come back to this project at a later date, running the ```grunt.command``` will start up the preview server, afterwards execute the ```sass.command``` to start the preprocessor.
