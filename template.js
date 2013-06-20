@@ -14,10 +14,6 @@ exports.template = function(grunt, init, done) {
 	init.process({}, [
 		// Prompt for these values
 		{
-			name: 'name',
-			message: 'URL Name Required'
-		},
-		{
 			name: 'title',
 			message: 'Page Title'
 		},
@@ -33,6 +29,11 @@ exports.template = function(grunt, init, done) {
 		}
 	], function(err, props) {
 		// All finished, do something with the properties
+
+		var dir = init.destpath(),
+			dirArray = dir.toString().split("/");
+
+		props.name = dirArray[dirArray.length - 1];
 
 		// Files to copy (and process).
 		var files = init.filesToCopy(props);
