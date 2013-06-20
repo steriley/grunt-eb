@@ -4,13 +4,13 @@ Locate the Sites folder in Finder and add a new folder with the same name of the
 
 Select the new folder and press ```ctrl+alt+cmd+t``` this will open a new Terminal window for that folder.
 
-## Using The Latest Template
+## Using Latest Template
 
 Run the following command from the terminal ```eb-update```
 
 This will update the starter template with the latest available updates.
 
-## Creating A New Project
+## Creating New Project
 
 Run the following command from the terminal ```eb-new```
 
@@ -46,7 +46,7 @@ project_name
 
 The ```app``` folder can be zipped up and sent for review when completed.
 
-## Restarting the Project
+## Restarting Project
 
 If you need to come back to this project at a later date, running the ```grunt.command``` will start up the preview server, afterwards execute the ```sass.command``` to start the preprocessor.
 
