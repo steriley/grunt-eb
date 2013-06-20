@@ -2,15 +2,15 @@
 
 Locate the Sites folder in Finder and add a new folder with the same name of the URL the article will go under.
 
-Select the new folder and press Ctrl+Alt+Cmd+T this will open a new Terminal window for that folder.
+Select the new folder and press ```ctrl+alt+cmd+t``` this will open a new Terminal window for that folder.
 
-## Using The Latest Template
+## Using Latest Template
 
 Run the following command from the terminal ```eb-update```
 
 This will update the starter template with the latest available updates.
 
-## Creating A New Project
+## Creating New Project
 
 Run the following command from the terminal ```eb-new```
 
@@ -25,6 +25,7 @@ project_name
 │   grunt.command
 │   Gruntfile.js
 │   package.json
+│   README.md
 │   sass.command
 │
 ├───app
@@ -45,6 +46,17 @@ project_name
 
 The ```app``` folder can be zipped up and sent for review when completed.
 
-## Restarting the Project
+## Restarting Project
 
 If you need to come back to this project at a later date, running the ```grunt.command``` will start up the preview server, afterwards execute the ```sass.command``` to start the preprocessor.
+
+## Enable Chrome CSS Sourcemaps
+Open Google Chrome and go to the following location in your address bar: ```chrome://flags/```
+
+Find the option **Enable Developer Tools experiments.** and choose Enable, hit the Relaunch Now button.
+
+Open the DevTools ```cmd+alt+i``` and open the settings you will have a new option of Experiments.
+
+Select the Experiments tab and check Support for Sass.
+
+Finally go to the General tab and select Enable source maps under the Sources heading.
