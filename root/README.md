@@ -49,3 +49,14 @@ The ```app``` folder can be zipped up and sent for review when completed.
 ## Restarting the Project
 
 If you need to come back to this project at a later date, running the ```grunt.command``` will start up the preview server, afterwards execute the ```sass.command``` to start the preprocessor.
+
+## Enable Chrome CSS Sourcemaps
+Open Google Chrome and go to the following location in your address bar: ```chrome://flags/```
+
+Find the option **Enable Developer Tools experiments.** and choose Enable, hit the Relaunch Now button.
+
+Now when you open the DevTools settings you will have a new option of Experiments.
+
+Select the Experiments tab and choose Support for SASS.
+
+Finally go to the General tab and select Enable source maps under the Sources heading.
