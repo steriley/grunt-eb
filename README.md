@@ -7,13 +7,16 @@ Cloning the template repository to the system:
 
 ```$ mkdir ~/.grunt-init && cd ~/.grunt-init && git clone https://github.com/steriley/grunt-eb.git eb```
 
-Updating template:
+Add the following commands to ```~/.bash_profile``` as alias commands for easy access:
 
-```$ cd ~/.grunt-init/eb && git pull && cd -```
+```
+alias eb-update='cd ~/.grunt-init/eb && git pull && cd -'
+alias eb-new='grunt-init eb; npm install && chmod ug+x *.command && grunt'
+```
 
-Starting a new project:
+Updating template: ```$ eb-update```
 
-```$ grunt-init eb; npm install && chmod ug+x *.command && grunt```
+Starting a new project: ```$ eb-new```
 
 ## Dependency Installation
 
