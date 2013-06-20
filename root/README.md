@@ -2,7 +2,7 @@
 
 Locate the Sites folder in Finder and add a new folder with the same name of the URL the article will go under.
 
-Select the new folder and press Ctrl+Alt+Cmd+T this will open a new Terminal window for that folder.
+Select the new folder and press ```Ctrl+Alt+Cmd+T``` this will open a new Terminal window for that folder.
 
 ## Using The Latest Template
 
@@ -25,6 +25,7 @@ project_name
 │   grunt.command
 │   Gruntfile.js
 │   package.json
+│   README.md
 │   sass.command
 │
 ├───app
