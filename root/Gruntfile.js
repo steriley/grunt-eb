@@ -37,14 +37,14 @@ module.exports = function( grunt ) {
                          sourcemap: true
                     },
                     files: {
-                         'app/css/article.css': 'app/scss/article.scss'
+                         'app/css/{%= name %}.css': 'app/scss/{%= name %}.scss'
                     }
                }
           },
 
           open : {
                local : {
-                    path: 'http://localhost:9001/testing.html'
+                    path: 'http://localhost:9001/{%= name %}.html'
                },
                markdown : {
                     path: 'http://markable.in/editor/'
