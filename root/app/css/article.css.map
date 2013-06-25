@@ -1,6 +1,0 @@
-{
-"version": "3",
-"mappings": "AAAA,QAAQ;EACP,OAAO,EAAE,IAAI;EAIZ,kBAAE;IACD,WAAW,EAAE,MAAM;IACnB,MAAM,EAAE,UAAU",
-"sources": ["../scss/_{%= name %}.scss"],
-"file": "article.css"
-}
