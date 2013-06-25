@@ -11,9 +11,13 @@ module.exports = function( grunt ) {
                     interrupt: true
                },
                src: {
-                    files: ['app/js/*.js', 'app/*.html', 'app/css/*.css'],
+                    files: ['app/js/*.js', 'app/*.html'],
                     tasks: ['none']
                },
+               sass: {
+                    files: ['app/scss/*.scss'],
+                    tasks: ['sass:dev']
+               }
           },
 
           connect: {
@@ -25,10 +29,22 @@ module.exports = function( grunt ) {
                }
           },
 
+          sass: {
+               dev: {
+                    options: {
+                         compass: true,
+                         style: 'expanded',
+                         sourcemap: true
+                    },
+                    files: {
+                         'app/css/article.css': 'app/scss/article.scss'
+                    }
+               }
+          },
 
           open : {
                local : {
-                    path: 'http://localhost:9001/{%= name %}.html'
+                    path: 'http://localhost:9001/testing.html'
                },
                markdown : {
                     path: 'http://markable.in/editor/'
@@ -40,9 +56,10 @@ module.exports = function( grunt ) {
      // Load grunt plugins
      grunt.loadNpmTasks('grunt-contrib-watch');
      grunt.loadNpmTasks('grunt-contrib-connect');
+     grunt.loadNpmTasks('grunt-contrib-sass');
      grunt.loadNpmTasks('grunt-open');
 
      // Default task(s).
-     grunt.registerTask('default', ['connect', 'open:markdown', 'open:local', 'watch']);
+     grunt.registerTask('default', ['connect', 'open:markdown', 'open:local', 'sass:dev', 'watch']);
      grunt.registerTask('none', []);
 };

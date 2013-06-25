@@ -1,7 +1,1 @@
-#{%= name %} {
-  padding: 20px; }
-  #{%= name %} .intro h1 {
-    line-height: normal;
-    margin: 0 0 .5em 0; }
-
-/*@ sourceMappingURL=article.css.map */
+/* styles imported here with Sass */
