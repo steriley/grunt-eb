@@ -32,8 +32,8 @@ project_name
 │ │ project_name.css
 │ │ project_name.map
 │ │
-│ └───scss
-│ │project_name.scss
+│ ├───scss
+│ │ project_name.scss
 │
 └───node_modules
 ```
