@@ -37,7 +37,7 @@ module.exports = function( grunt ) {
                          sourcemap: true
                     },
                     files: {
-                         'app/css/{%= name %}.css': 'app/scss/{%= name %}.scss'
+                         'app/css/article.css': 'app/scss/article.scss'
                     }
                }
           },
