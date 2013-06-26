@@ -1,5 +1,5 @@
 {
 	"app/index.html": "app/{%= name %}.html",
 	"app/css/article.css": "app/css/{%= name %}.css",
-	"app/scss/article.scss": "app/scss/{%= name %}.scss"
+	"app/scss/_article.scss": "app/scss/_{%= name %}.scss"
 }
