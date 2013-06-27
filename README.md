@@ -21,7 +21,10 @@ Starting a new project: ```$ eb-new```
 ## Dependency Installation
 
 ### Install Git
-Use the download package from the [Git website](http://git-scm.com/) 
+Download & install from the [Git website](http://git-scm.com/)
+
+### Install node.js
+Download & install from the [node.js website](http://nodejs.org/)
 
 ### Install Compass CSS Authoring Framework
 ```$ sudo gem update --system```
