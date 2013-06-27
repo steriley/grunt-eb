@@ -35,8 +35,6 @@ Download & install from the [node.js website](http://nodejs.org/)
 ```$ sudo gem install sass -v 3.3.0.alpha.141 --pre```
 
 ### Install Grunt
-Requires [NodeJS](http://nodejs.org/) to be installed
-
 ```$ sudo npm install -g grunt-cli```
 
 ```$ sudo npm install -g grunt-init```
